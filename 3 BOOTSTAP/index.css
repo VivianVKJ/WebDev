@@ -1,0 +1,28 @@
+body{
+    background: url(https://images.unsplash.com/photo-1572338643179-90e3b94145cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2912&q=80);
+    background-size: cover;
+    font-family: 'Lato';
+    color:white;
+    /* other color are sepcific in the bootstrap class */
+}
+html{
+    height: 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 5em;
+}
+#content{
+    color: azure;
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0,0.1),;
+}
+hr{
+    width: 400px;
+    color: azure;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgbal(0,0,0,0.2);
+}

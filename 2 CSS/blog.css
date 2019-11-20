@@ -1,0 +1,33 @@
+body{
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto; /* up-botton 20px, left-right auto */
+    font-family: Source Sans Pro; /* inherited */
+}
+.quote{
+    border-left: 5px solid #bdc3c7;
+    padding: 5px;
+}
+.post{
+    /* border-bottom: 2px solid #f1f1f1; */
+    margin: 20px;
+}
+
+/* https://css-tricks.com/examples/hrs/  */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+h2{
+    color: #2c3e50;
+    font-size: 2rem;
+}
+.date{
+    color:#3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size:23;
+}

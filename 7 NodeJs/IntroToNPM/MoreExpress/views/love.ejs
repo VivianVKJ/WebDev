@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1> you fell in love with: <%= thingvar %> </h1>
+<% if(thingvar == "rusty"){ %>
+    <p>good choice</p>
+<%} else {%>
+    <p>bad choice, you should say rusty</p>
+<% }%>
+
+<% include partials/footer %>
